@@ -26,6 +26,22 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+### Rodar rest-api-nestjs
+
+terminal 1
+yarn start:dev
+
+terminal 2
+docker compose up dev-db -d
+
+terminal 3
+npx prisma migrate dev
+npx prisma generate
+npx prisma studio
+
+terminal 4
+yarn test:e2e
+
 ## Installation
 
 ```bash
